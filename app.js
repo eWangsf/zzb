@@ -23,19 +23,30 @@
 var express = require('express');
 var app = express();
 
-app.set('view engine', 'html');
+app.set('view engine', 'jade');
 app.use(express.static('static'));
 app.listen(1111);
-
+var proj = '/zzb';
 
 // pages
-app.get('/zzb', function (req, res) {
-   res.sendfile("./views/index.html");
+app.get(proj + '/', function (req, res) {
+   res.render('index');
 });
 
-app.get('/zzb/login', function (req, res) {
-   res.sendfile("./views/login.html");
+app.get(proj + '/login', function (req, res) {
+   res.render('login');
 });
+
+app.get(proj + '/register', function (req, res) {
+   res.render('register');
+});
+
+
+
+console.log("Server running at http://localhost:1111...");
+// app.get('/zzb/login', function (req, res) {
+//    res.sendfile("./views/login.html");
+// });
 
 
 
