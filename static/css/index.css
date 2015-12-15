@@ -2,10 +2,12 @@
 .wrapper {
     margin: 0px auto;
     max-width: 425px;
+    min-height: 430px;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 }
 
