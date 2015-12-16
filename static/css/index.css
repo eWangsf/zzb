@@ -1,76 +1,68 @@
+.content {
+  padding: 90px;
+  background: url("/images/index_bg.png");
+  background-repeat: repeat; }
 
 .wrapper {
-    margin: 0px auto;
-    max-width: 425px;
-    min-height: 430px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
+  margin: 0 auto;
+  max-width: 587.64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap; }
 
 .section {
-    margin: 0 7px;
-    float: left;
-    cursor: pointer;
-    opacity: .9;
-    transition: all 1s;
-}
+  margin: 0 20px;
+  cursor: pointer;
+  opacity: .9;
+  transition: all 1s; }
 
 .section:hover {
-    opacity: .6;
-}
+  opacity: .6; }
 
-.section:nth-child(3),
-.section:nth-child(4) {
-    position: relative;
-    left: 85px;
-    top: -120px;
-}
+.section:nth-child(4),
+.section:nth-child(5) {
+  position: relative;
+  top: -100.36px; }
 
 .component {
-    float: left;
-    clear: both;
-    width: 156px;
-    height: 90px;
-    background: #000;
-    display: inline-block;
-    text-align: center;
-    line-height: 90px;
-    font-size: 27px;
-    color: #fff;
-    font-weight: 900;
-}
+  float: left;
+  clear: both;
+  width: 155.88px;
+  height: 90px;
+  background: #1e1e1e;
+  display: inline-block;
+  text-align: center;
+  line-height: 90px;
+  font-size: 27px;
+  color: #377d7c;
+  font-weight: 900; }
 
 a {
-    color: #fff;
-}
+  color: #377d7c; }
 
 .section:before {
-    float: left;
-    clear: both;
-    content: '';
-    width: 0;
-    display: inline-block;
-    border-top: 45px solid transparent;
-    border-bottom: 45px solid #000;
-    border-left: 78px solid transparent;
-    border-right: 78px solid transparent;
-}
+  float: left;
+  clear: both;
+  content: '';
+  width: 0;
+  display: inline-block;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid #1e1e1e;
+  border-left: 77.94px solid transparent;
+  border-right: 77.94px solid transparent; }
 
 .section:after {
-    float: left;
-    clear: both;
-    content: '';
-    width: 0;
-    display: inline-block;
-    border-top: 45px solid #000;
-    border-bottom: 45px solid transparent;
-    border-left: 78px solid transparent;
-    border-right: 78px solid transparent;
-}
+  float: left;
+  clear: both;
+  content: '';
+  width: 0;
+  display: inline-block;
+  border-top: 45px solid #1e1e1e;
+  border-bottom: 45px solid transparent;
+  border-left: 77.94px solid transparent;
+  border-right: 77.94px solid transparent; }
 
-       
-
+/*# sourceMappingURL=index.css.map */

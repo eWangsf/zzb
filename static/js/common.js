@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var height = window.screen.availHeight;
-    $('body').css({
+    $('.content').css({
         'min-height': height + 'px'
     })
 });
