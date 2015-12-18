@@ -1,0 +1,17 @@
+extends layout
+
+block title 
+    title 登录
+block link
+    link(rel='stylesheet', href='/css/login.css')
+block script
+    script(src='/js/login.js')
+block content
+    .wrapper
+        form.form
+            .form-group
+                input#name.name.form-control(type='text', placeholder='Enter username')
+            .form-group
+                input#pwd.pwd.form-control(type='password', placeholder='Password')
+            .form-group
+                button.form-control.btn.btn-success(type='submit') 登录
