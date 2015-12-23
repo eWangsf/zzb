@@ -3,4 +3,7 @@ $(document).ready(function () {
     $('.content').css({
         'min-height': height + 'px'
     })
+    $('.bgmodal').css({
+        'height': height + 'px'
+    })
 });

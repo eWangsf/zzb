@@ -33,12 +33,16 @@ app.get(proj + '/', function (req, res) {
    res.render('index');
 });
 
-app.get(proj + '/login', function (req, res) {
-   res.render('login');
-});
+// app.get(proj + '/login', function (req, res) {
+//    res.render('login');
+// });
 
 app.get(proj + '/register', function (req, res) {
    res.render('register');
+});
+
+app.get(proj + '/infomg', function (req, res) {
+   res.render('info/info');
 });
 
 
