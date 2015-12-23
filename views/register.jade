@@ -1,4 +1,46 @@
 extends layout
 
-block content 
-    h1 hahahaha zhuce
+block title
+    title 注册新账号
+block link
+    link(rel='stylesheet', href='/css/register.css')
+block script
+    script(src='/js/register.js')
+block content
+    .bgmodal
+        .wrapper 
+            h1 Welcome
+            |this is a website owned by zzb  
+            form.form.myform
+                .form-group.row(action='/zzb')
+                    .col-md-1
+                        label.form-control-feedback.control-feedback-lg.fui-user(for='r_uname')
+                    .col-md-11
+                        input#r_uname.form-control(name='r_uname', placeholder='Username')
+                .form-group.row
+                    .col-md-1
+                        label.form-control-feedback.control-feedback-lg.fui-mail(for='r_uemail')
+                    .col-md-11
+                        input#r_uemail.form-control(name='r_uemail', placeholder='Email Address')
+                .form-group.row
+                    .col-md-1
+                        label.form-control-feedback.control-feedback-lg.fui-lock(for='r_upwd')
+                    .col-md-11
+                        input#r_upwd.form-control(name='r_upwd', placeholder='Password')
+                .form-group.row
+                    .col-md-1
+                        label.form-control-feedback.control-feedback-lg.fui-lock(for='r_upwd2')
+                    .col-md-11
+                        input#r_upwd2.form-control(name='r_upwd2', placeholder='Password Confirm')
+                
+                .form-group.row
+                    button.col-md-12.btn.btn-success.btn-lg(type='submit') Register
+                  
+                .form-group.row
+                    p 
+                        a(href='/zzb') Login at once
+                     
+
+
+
+

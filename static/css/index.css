@@ -1,13 +1,8 @@
 .content {
-  background: url("/images/index_bg.png");
-  background-repeat: repeat;
+  background: url("/images/register.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   position: relative; }
-
-.bgmodal {
-  padding-top: 30px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: -1; }
 
 .header {
   min-height: 100px; }
@@ -44,7 +39,7 @@
   width: 0;
   display: inline-block;
   border-top: 45px solid transparent;
-  border-bottom: 45px solid #27384c;
+  border-bottom: 45px solid rgba(0, 0, 0, 0.5);
   border-left: 77.94px solid transparent;
   border-right: 77.94px solid transparent; }
 
@@ -54,7 +49,7 @@
   content: '';
   width: 0;
   display: inline-block;
-  border-top: 45px solid #27384c;
+  border-top: 45px solid rgba(0, 0, 0, 0.5);
   border-bottom: 45px solid transparent;
   border-left: 77.94px solid transparent;
   border-right: 77.94px solid transparent; }
@@ -64,16 +59,16 @@
   clear: both;
   width: 155.88px;
   height: 90px;
-  background: #27384c;
+  background: rgba(0, 0, 0, 0.5);
   display: inline-block;
   text-align: center;
   line-height: 90px;
   font-size: 25px;
-  color: #377d7c;
+  color: #1ABC9C;
   font-weight: 900; }
 
 .component a {
-  color: #377d7c; }
+  color: #1ABC9C; }
   .component a span:nth-child(1) {
     font-size: 38px; }
   .component a .hide {

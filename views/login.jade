@@ -1,7 +1,5 @@
     
-nav.navbar.navbar-default.navbar-lg(role='navigation')
-    //- .navbar-header
-        a.navbar-brand(href='/') 
+nav.mynav.navbar.navbar-lg(role='navigation')
     .collapse.navbar-collapse
         form.navbar-form.navbar-left(role='form')
             .form-group
@@ -11,23 +9,7 @@ nav.navbar.navbar-default.navbar-lg(role='navigation')
                 input#upwd.form-control(type='password', placeholder='密码', name='upwd', value='')
                 label.form-control-feedback.control-feedback-sm.fui-lock(for='upwd')
             .form-group
-                button.btn.btn-block.btn-md.btn-inverse 登录
+                button.btn.btn-block.btn-md.btn-primary 登录
         ul.nav.navbar-nav.navbar-right
-            //- li.dropdown
-              a(href="#", class="dropdown-toggle", data-toggle="dropdown") MonsterCritic 
-                 b.caret
-              ul.dropdown-menu
-                li
-                    a(href="#") Action
-                li
-                    a(href="#") Another action
-                li
-                    a(href="#") Something else here
-                li.divider
-                li
-                    a(href="#") Separated link
-            //- li
-                a(href="#")
-                    span.fui-gear
             li 
                 a(href='register') 注册账号

@@ -1,20 +1,14 @@
-$section_color: rgba(39, 56, 76, 1);
+$section_color: rgba(0, 0, 0, .5);;
 $section_height: 90px;
 $section_width: 1.732 * $section_height;
 $section_margin: 20px;
-$section_font: rgba(55, 125, 124, 1);
+$section_font: #1ABC9C;
 
 .content {
-    background: url('/images/index_bg.png');
-    background-repeat: repeat;
+    background: url('/images/register.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     position: relative;
-}
-
-.bgmodal {
-    padding-top: 30px;
-    width: 100%;
-    background: rgba(0, 0, 0, .2);
-    z-index: -1;
 }
 
 .header {

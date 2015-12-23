@@ -3,7 +3,30 @@ body {
     padding: 0;
 }
 
-/*.content {
-    font-size: 16px;
+.bgmodal {
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    z-index: -1;
 }
-*/
+
+.myform label,
+.myform .form-control {
+    height: 55px;
+    line-height: 55px;
+}
+
+.myform .form-control {
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 0;
+}
+
+.mynav {
+    background: rgba(0, 0, 0, .5);
+}
+
+
+
