@@ -9,33 +9,34 @@ block script
     script(src='/js/info/info.js')
 block content
     .wrapper
-        .search
+        .search.col-md-2
             form.form-horizontal(role='form')
-                label.col-md-1.control-label(for='grade') 年级
-                #grade_container.col-md-3
-                    select#grade.form-control.select.select-inverse.select-sm(data-toggle='select', name='inverse-dropdown-searchfield')
-                        option(value='0') 2012
-                        option(value='1') 2013
-                        option(value='2') 2014
-                        option(value='3') 2015
-                label.col-md-1.control-label(for='class') 班级
-                #class_container.col-md-3
-                    select#class.form-control.select.select-inverse.select-sm(data-toggle='select', name='inverse-dropdown-searchfield')
-                        option(value='0') 1
-                        option(value='1') 2
-                        option(value='2') 3
-                        option(value='3') 4
-                        option(value='4') 5
-                        option(value='5') 6
-                label.col-md-1.control-label(for='class') 全站找人
-                #key_contaner.col-md-3
-                    input#key.form-control.input-sm(type='text') 
-        hr
-        .main
-            h1 hahah
-            h1 hahah
-            h1 hahah
-            h1 hahah
+                .form-group
+                    label.control-label(for='grade') 年级
+                    #grade_container
+                        select#grade.form-control.select.select-inverse.select-sm(data-toggle='select', name='inverse-dropdown-searchfield')
+                            option(value='0') 2012
+                            option(value='1') 2013
+                            option(value='2') 2014
+                            option(value='3') 2015
+                .form-group
+                    label.control-label(for='class') 班级
+                    #class_container
+                        select#class.form-control.select.select-inverse.select-sm(data-toggle='select', name='inverse-dropdown-searchfield')
+                            option(value='0') 1
+                            option(value='1') 2
+                            option(value='2') 3
+                            option(value='3') 4
+                            option(value='4') 5
+                            option(value='5') 6
+                hr
+                .form-group
+                    label.control-label(for='class') 全站找人
+                    #key_contaner
+                        input#key.form-control.input-sm(type='text') 
+            
+        .main.col-md-10
+            
 
                         
 
