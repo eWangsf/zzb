@@ -1,7 +1,7 @@
 extends layout
 
 block title
-    title ZZB
+    title 组织部
 block link
     link(rel='stylesheet', href='/css/index.css')
     link(rel='stylesheet', href='/css/login.css')        
@@ -17,31 +17,41 @@ block content
                 .component
                     a.section_name(href="infomg") 
                         span.fui-windows
-                        span.hide 信息管理
+                        span 信息管理
+                        //- span.fui-windows
+                        //- span.hide 信息管理
             .section
                 .component
                     a.section_name(href="recommond") 
                         span.fui-star-2
-                        span.hide 团员推优 
+                        span 团员推优
+                        //- span.fui-star-2
+                        //- span.hide 团员推优 
             .section
                 .component
                     a.section_name(href="feemg") 
                         span.fui-document
-                        span.hide 团费收缴 
+                        span 团费收缴 
+                        //- span.fui-document
+                        //- span.hide 团费收缴 
             .section
                 .component
                     a.section_name(href="activity") 
                         span.fui-user
-                        span.hide 团干培训 
+                        span 团干培训
+                        //- span.fui-user
+                        //- span.hide 团干培训 
             .section
                 .component
-                    a.section_name(href="us") 
+                    a.section_name(href="us")
                         span.fui-lock
-                        span.hide About us 
+                        span About us 
+                        //- span.fui-lock
+                        //- span.hide About us 
                 
         .footer  
             p 
-                a(href='mailto:1342832773@qq.com?subject=欢迎您来信！&body=写下您的建议') contact us         
+                a(href='mailto:1342832773@qq.com?subject=&body=') contact us         
 
 
 

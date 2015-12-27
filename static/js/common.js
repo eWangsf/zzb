@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.content').css({
         'min-height': height + 'px'
     })
-    $('.bgmodal').css({
+    $('.bgmodal:first').css({
         'height': height + 'px'
     })
 });

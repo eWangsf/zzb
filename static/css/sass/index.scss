@@ -86,9 +86,13 @@ $section_font: #1ABC9C;
 .component a {
     color: $section_font;
 
-    span:nth-child(1) {
-        font-size: 38px;
+    // span:nth-child(1) {
+    //     font-size: 38px;
+    // }
+    span {
+        margin: 3px;
     }
+
     .hide {
         display: none;
         visible: hidden;

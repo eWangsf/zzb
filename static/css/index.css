@@ -69,8 +69,8 @@
 
 .component a {
   color: #1ABC9C; }
-  .component a span:nth-child(1) {
-    font-size: 38px; }
+  .component a span {
+    margin: 3px; }
   .component a .hide {
     display: none;
     visible: hidden; }
