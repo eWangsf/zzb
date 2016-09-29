@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AACA,QAAS;EACL,OAAO,EAAE,SAAS",
-"sources": ["../sass/info/info.scss"],
+"sources": ["info/info.scss"],
 "names": [],
 "file": "info.css"
 }
